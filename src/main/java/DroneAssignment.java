@@ -24,10 +24,10 @@ public class DroneAssignment {
         System.out.println();
         // TODO: Part 2 - Compound Assignment Operators
         // Altitude: Drone climbs 20 meters
-        altitude += 20;
+        displayAltitude += 20;
         System.out.println("After climbing 20m: " + displayAltitude);
         // Battery: Battery drains 15%
-        battery *= .85;
+        batteryRounded *= .85;
         System.out.println("After battery drain: " + batteryRounded);
         // Photos: Drone takes 3 photos
         photos += 3;
